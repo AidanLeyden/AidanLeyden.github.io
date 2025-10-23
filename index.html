@@ -11,10 +11,10 @@
     <style>
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #0c1536; /* bg-blue-950 */
-            color: #d1d5db; /* text-gray-300 */
+            background-color: #0c1536; 
+            color: #d1d5db; 
         }
-        /* Simple animation for section fade-in */
+       
         .fade-in {
             opacity: 0;
             transform: translateY(20px);
@@ -30,7 +30,7 @@
                 transform: translateY(0);
             }
         }
-        /* Add delays for staggered effect */
+  
         .fade-in-delay-1 { animation-delay: 0.2s; }
         .fade-in-delay-2 { animation-delay: 0.4s; }
         .fade-in-delay-3 { animation-delay: 0.6s; }
@@ -38,7 +38,7 @@
 
         #hero-background {
             background-image: url('https://drexel.edu/~/media/Drexel/Core-Site-Group/Core/Images/admissions/visit-tours/undergrad-admitted-events/receptions/New-Dragons-Virtual-Events_3200x1600/new-dragons-virtual-events_3200x1600_160x53.jpg'); /* Your Drexel image */
-            background-size: cover; /* This will fill the space, cropping is fine */
+            background-size: cover; 
             background-position: center center;
             position: relative;
             overflow: hidden;
@@ -51,11 +51,11 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background-color: rgba(13, 22, 53, 0.75); /* Darker overlay for text readability */
+            background-color: rgba(13, 22, 53, 0.75);
             z-index: 1;
         }
 
-        /* This container aligns the hero text with the rest of the page */
+     
         #hero-background > .container {
             position: relative;
             z-index: 2;
@@ -80,7 +80,7 @@
             </button>
         </nav>
         
-        <!-- Mobile Menu -->
+   
         <div id="mobile-menu" class="hidden md:hidden bg-blue-900">
             <a href="#about" class="block py-2 px-6 text-sm hover:bg-blue-800">About</a>
             <a href="#experience" class="block py-2 px-6 text-sm hover:bg-blue-800">Experience</a>
@@ -89,7 +89,7 @@
         </div>
     </header>
 
-    <!-- Hero Section: Full-width -->
+    <!-- Hero Section-->
     <section id="hero-background" class="min-h-[calc(100vh-64px)] flex items-center">
         <div class="container mx-auto px-6 max-w-3xl py-12"> 
             <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight mb-4 fade-in">Hi, I'm Aidan Leyden</h1>
@@ -101,7 +101,7 @@
         </div>
     </section>
 
-    <!-- Main content container -->
+
     <main class="container mx-auto px-6">
 
         <!-- About Section -->
@@ -109,7 +109,7 @@
             <h2 class="text-3xl md:text-4xl font-bold text-white mb-12 text-center fade-in">About Me</h2>
             <div class="flex flex-col md:flex-row items-center gap-12">
                 <div class="md:w-1/3 fade-in fade-in-delay-1">
-                    <!-- Add your photo link here -->
+         
                     <img src="assets/self.jpg" 
                          alt="A portrait of Aidan Leyden" 
                          class="rounded-full shadow-lg mx-auto"
@@ -254,21 +254,21 @@
 
     </main>
 
-    <!-- Footer: Full-width -->
+    <!-- Footer-->
     <footer class="border-t border-blue-900">
         <div class="container mx-auto px-6 py-8 flex flex-col md:flex-row justify-between items-center text-gray-500">
             <p>&copy; 2024 Aidan Leyden. All Rights Reserved.</p>
             <div class="flex space-x-4 mt-4 md:mt-0">
-                <!-- Add your GitHub link here -->
-                <a href="#" aria-label="GitHub Profile" class="hover:text-white transition-colors"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.168 6.839 9.49.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.338 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z" clip-rule="evenodd" /></svg></a>
-                <!-- Add your LinkedIn link here -->
+   
+                <a href="https://github.com/AidanLeyden" aria-label="GitHub Profile" class="hover:text-white transition-colors"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.168 6.839 9.49.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.338 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z" clip-rule="evenodd" /></svg></a>
+          
                 <a href="#" aria-label="LinkedIn Profile" class="hover:text-white transition-colors"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
             </div>
         </div>
     </footer>
 
     <script>
-        // JavaScript for mobile menu toggle
+ 
         const mobileMenuBtn = document.getElementById('mobile-menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
 
@@ -276,7 +276,7 @@
             mobileMenu.classList.toggle('hidden');
         });
 
-        // Close mobile menu when a link is clicked
+     
         const mobileNavLinks = document.querySelectorAll('#mobile-menu a, header nav .hidden a');
         mobileNavLinks.forEach(link => {
             link.addEventListener('click', () => {
@@ -287,4 +287,5 @@
         });
     </script>
 </body>
+
 </html>
